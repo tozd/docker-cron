@@ -16,7 +16,3 @@ go, and `REMOTES` to the e-mail relay server this image should be using to send 
 When `cron` daemon runs, it stores its environment into `/dev/shm/cron-environment` file.
 You cron scripts can then source this file (`. /dev/shm/cron-environment`) to gain access
 to environment variables provided to Docker container. Only root processes can access this file.
-
-Docker images are rebuild daily to get any latest (security) updates.
-If you do the same in your image (which extends this image), you will
-get those updates as well.
