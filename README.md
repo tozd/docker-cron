@@ -2,6 +2,13 @@
 
 <https://gitlab.com/tozd/docker/cron>
 
+Available as:
+
+* [`tozd/cron`](https://hub.docker.com/r/tozd/cron)
+* [`registry.gitlab.com/tozd/docker/cron`](https://gitlab.com/tozd/docker/cron/container_registry)
+
+## Description
+
 Image providing support for cron jobs.
 
 A suggested way to use this image is to extend it, add a program you want

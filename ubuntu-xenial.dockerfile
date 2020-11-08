@@ -1,4 +1,4 @@
-FROM tozd/runit:ubuntu-xenial
+FROM registry.gitlab.com/tozd/docker/runit:ubuntu-xenial
 
 VOLUME /var/log/nullmailer
 
