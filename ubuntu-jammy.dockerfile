@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/tozd/docker/mailer:ubuntu-xenial
+FROM registry.gitlab.com/tozd/docker/mailer:ubuntu-jammy
 
 ENV MAILTO=
 
