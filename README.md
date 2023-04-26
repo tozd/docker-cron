@@ -4,8 +4,26 @@
 
 Available as:
 
-* [`tozd/cron`](https://hub.docker.com/r/tozd/cron)
-* [`registry.gitlab.com/tozd/docker/cron`](https://gitlab.com/tozd/docker/cron/container_registry)
+- [`tozd/cron`](https://hub.docker.com/r/tozd/cron)
+- [`registry.gitlab.com/tozd/docker/cron`](https://gitlab.com/tozd/docker/cron/container_registry)
+
+## Image inheritance
+
+[`tozd/base`](https://gitlab.com/tozd/docker/base) ← [`tozd/runit`](https://gitlab.com/tozd/docker/runit) ← [`tozd/mailer`](https://gitlab.com/tozd/docker/mailer) ← `tozd/cron`
+
+See also [`tozd/nginx-cron`](https://gitlab.com/tozd/docker/nginx-cron).
+
+## Tags
+
+- `ubuntu-trusty`: cron 3.0pl1
+- `ubuntu-xenial`: cron 3.0pl1
+- `ubuntu-bionic`: cron 3.0pl1
+- `ubuntu-focal`: cron 3.0pl1
+- `ubuntu-jammy`: cron 3.0pl1
+
+## Variables
+
+- `MAILTO`: An e-mail address to which output from cron jobs is send.
 
 ## Description
 
