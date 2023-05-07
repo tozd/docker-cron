@@ -41,3 +41,8 @@ go, and `REMOTES` to the e-mail relay server this image should be using to send 
 When `cron` daemon runs, it stores its environment into `/dev/shm/cron-environment` file.
 You cron scripts can then source this file (`. /dev/shm/cron-environment`) to gain access
 to environment variables provided to Docker container. Only root processes can access this file.
+
+## GitHub mirror
+
+There is also a [read-only GitHub mirror available](https://github.com/tozd/docker-cron),
+if you need to fork the project there.
