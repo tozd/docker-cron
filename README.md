@@ -9,7 +9,7 @@ Available as:
 
 ## Image inheritance
 
-[`tozd/base`](https://gitlab.com/tozd/docker/base) ← [`tozd/runit`](https://gitlab.com/tozd/docker/runit) ← [`tozd/mailer`](https://gitlab.com/tozd/docker/mailer) ← `tozd/cron`
+[`tozd/base`](https://gitlab.com/tozd/docker/base) ← [`tozd/dinit`](https://gitlab.com/tozd/docker/dinit) ← [`tozd/mailer`](https://gitlab.com/tozd/docker/mailer) ← `tozd/cron`
 
 See also [`tozd/nginx-cron`](https://gitlab.com/tozd/docker/nginx-cron).
 

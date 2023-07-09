@@ -5,4 +5,4 @@ touch /dev/shm/cron-environment
 chmod 600 /dev/shm/cron-environment
 export > /dev/shm/cron-environment
 
-exec /usr/sbin/cron -f 2>&1
+exec /usr/sbin/cron -f
