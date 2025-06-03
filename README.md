@@ -20,6 +20,7 @@ See also [`tozd/nginx-cron`](https://gitlab.com/tozd/docker/nginx-cron).
 - `ubuntu-bionic`: cron 3.0pl1
 - `ubuntu-focal`: cron 3.0pl1
 - `ubuntu-jammy`: cron 3.0pl1
+- `ubuntu-noble`: cron 3.0pl1
 
 ## Variables
 
