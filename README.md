@@ -24,7 +24,7 @@ See also [`tozd/nginx-cron`](https://gitlab.com/tozd/docker/nginx-cron).
 
 ## Variables
 
-- `MAILTO`: An e-mail address to which output from cron jobs is send.
+- `MAILTO`: An e-mail address to which output from cron jobs is sent.
 
 ## Description
 
@@ -34,7 +34,7 @@ A suggested way to use this image is to extend it, add a program you want
 to use in a cron job, and add a crontab file to `/etc/cron.d` directory
 (or other cron crontab directories, like `/etc/cron.daily`).
 
-You should set `MAILTO` environment variable to an e-mail address to which output from cron jobs should be send.
+You should set `MAILTO` environment variable to an e-mail address to which output from cron jobs should be sent.
 For e-mailing out of the container the image uses [nullmailer](http://untroubled.org/nullmailer/).
 For it to work, you should set `ADMINADDR` environment variable to an e-mail address to which errors and failures should
 go, and `REMOTES` to the e-mail relay server this image should be using to send e-mails.
